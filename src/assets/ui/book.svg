@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Education</title>
+  <path d="M12 12h17c4 0 7 3 7 7v33c0-4-3-7-7-7H12z" fill="#0a142b" stroke="#00d4ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M52 12H35c-4 0-7 3-7 7v33c0-4 3-7 7-7h17z" fill="#091827" stroke="#39ff14" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M19 23h10M19 32h10M45 23H35M45 32H35" stroke="#e9ffff" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Spark</title>
+  <path d="M32 5 37 24l18 8-18 8-5 19-5-19-18-8 18-8z" fill="#ffe566" stroke="#39ff14" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M51 7l2 8 7 3-7 3-2 8-2-8-7-3 7-3z" fill="#00d4ff" opacity="0.82"/>
+</svg>

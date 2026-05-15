@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Resistor</title>
+  <desc id="desc">A neon zig-zag resistor component.</desc>
+  <defs>
+    <linearGradient id="resistorStroke" x1="10" y1="48" x2="86" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="0.5" stop-color="#ffe566"/>
+      <stop offset="1" stop-color="#ff9f2f"/>
+    </linearGradient>
+    <linearGradient id="resistorBody" x1="25" y1="23" x2="71" y2="73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a1608"/>
+      <stop offset="1" stop-color="#0a142b"/>
+    </linearGradient>
+    <filter id="resistorGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1 0 0 0 0 0.68 0 0 0 0 0.08 0 0 0 0.65 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="18" y="24" width="60" height="48" rx="14" fill="url(#resistorBody)" stroke="#00d4ff" stroke-width="2" opacity="0.92"/>
+  <path d="M8 48h14l7-14 11 28 11-28 11 28 7-14h19" fill="none" stroke="url(#resistorStroke)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#resistorGlow)"/>
+  <path d="M20 48h8M68 48h8" stroke="#e9ffff" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+  <path d="M27 27h42M27 69h42" stroke="#ffe566" stroke-width="2" stroke-linecap="round" opacity="0.28"/>
+  <circle cx="8" cy="48" r="4" fill="#00d4ff"/>
+  <circle cx="88" cy="48" r="4" fill="#ffbf3d"/>
+</svg>

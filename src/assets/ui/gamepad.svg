@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Gamified</title>
+  <path d="M17 25c-6 0-10 5-10 12v7c0 5 3 8 7 8 3 0 5-2 8-6l3-4h14l3 4c3 4 5 6 8 6 4 0 7-3 7-8v-7c0-7-4-12-10-12z" fill="#0a142b" stroke="#00d4ff" stroke-width="4"/>
+  <path d="M20 34v10M15 39h10" stroke="#39ff14" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="44" cy="36" r="3" fill="#ffe566"/>
+  <circle cx="51" cy="43" r="3" fill="#39ff14"/>
+</svg>

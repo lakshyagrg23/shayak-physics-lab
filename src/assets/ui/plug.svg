@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Connect</title>
+  <path d="M21 10v16M35 10v16M17 26h22v8c0 8-5 14-11 14S17 42 17 34z" fill="#0a142b" stroke="#00d4ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 48v8h16c7 0 12-5 12-12v-6" fill="none" stroke="#39ff14" stroke-width="4" stroke-linecap="round"/>
+</svg>

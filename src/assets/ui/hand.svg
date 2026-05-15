@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Drag</title>
+  <path d="M24 28V14a5 5 0 0 1 10 0v10a5 5 0 0 1 10 0v3a5 5 0 0 1 9 3v9c0 12-8 19-20 19-9 0-15-4-19-12l-5-10a5 5 0 0 1 8-5l7 9z" fill="#0a142b" stroke="#00d4ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M34 24v12M44 27v10" stroke="#39ff14" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Switch off</title>
+  <desc id="desc">An open electrical switch.</desc>
+  <defs>
+    <linearGradient id="switchFrameOff" x1="16" y1="19" x2="80" y2="77" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#566b87"/>
+    </linearGradient>
+    <filter id="switchGlowOff" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.82 0 0 0 0 1 0 0 0 0.36 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="16" y="24" width="64" height="48" rx="16" fill="#0a142b" stroke="url(#switchFrameOff)" stroke-width="4" filter="url(#switchGlowOff)"/>
+  <circle cx="31" cy="48" r="7" fill="#00d4ff"/>
+  <circle cx="65" cy="48" r="7" fill="#6f829e"/>
+  <path d="M34 45l25-17" stroke="#a7bfd8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M23 48h-10M83 48h-10" stroke="#00d4ff" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <text x="48" y="88" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9fb3cc">OFF</text>
+</svg>
